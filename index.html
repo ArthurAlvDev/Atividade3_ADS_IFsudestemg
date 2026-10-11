@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <p>Site desenvolvido com os conhecimentos da Unidade 1, 2 e 3.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Estou cursando análise e desenvolvimento de sistemas e esta é a minha página web básica utilizando HTML e CSS puro.</p>
+            <ul>
+                <li>Estudando programação web</li>
+                <li>Praticando estruturação semântica</li>
+                <li>Aprendendo estilização com CSS</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Links Úteis</h2>
+            <p>Você pode acessar a documentação oficial clicando no link abaixo:</p>
+            <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+        </section>
+
+        <section>
+            <h2>Minha Tabela</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Categoria</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Estrutura</td>
+                        <td>Concluído</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Estilização</td>
+                        <td>Em andamento</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Entre em Contato</h2>
+            <form id="contactForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+                <button type="submit" id="btnEnviar">Enviar</button>
+            </form>
+            <p id="formFeedback" style="margin-top: 15px; font-weight: bold;"></p>
+        </section>
+
+        <section>
+            <h2>Imagem Ilustrativa</h2>
+            <p>Exemplo de inserção de imagem na página:</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbgrnkneCrdnGWiQP2qlnoO5XgsD6BNrqALWPh0A-8IQ&s=10" alt="Imagem de exemplo placeholder">
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 
+            <a href="https://olacdev.com/" target="_blank" rel="noopener noreferrer">
+                OlacDev
+            </a>.
+            Todos os direitos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
